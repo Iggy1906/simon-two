@@ -1,0 +1,129 @@
+#body {
+    background-color: #2b353a; 
+}
+
+
+.container {
+    marigin: 0 auto;
+    text-align: center;
+}
+
+.simonBoard {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    border: solid 5px black;
+    border-radius: 600px;
+}
+
+.pad {
+    z-index:1;
+    margin:0;
+    float:left;
+    position:relative;
+    width:295px;
+    height:295px;
+    border:solid 8px black;
+}
+
+.green {
+    background-color: green;
+    border-radius: 300px 0 0 0;
+}
+
+.red {
+    background-color: red;
+    border-radius: 0 300px 0 0;
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 0 0 300px 0;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 0 0 0 300px;
+}
+
+.board-controls {
+    width: 245px;
+    height: 245px;
+    margin-left: 175px;
+    margin-top: 165px;
+    background-color: white;
+    border: solid 10px black;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.display {
+    width: 60px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #342626;
+}
+
+.start {
+    margin: 0px;
+    margin-left: 15px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border: solid 2px black;
+    border-radius: 30px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: darkred;
+}
+
+.strict {
+    margin: 0px;
+    margin-left: 15px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border: solid 2px black;
+    border-radius: 30px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: yellow;
+}
+
+.outer-switch {
+    width: 60px;
+    height: 25px;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.inner-switch {
+    width: 30px;
+    height: 23px;
+    background-color: gray;
+    
+}
+
+.off, .on {
+    margin-top: 15px;
+}
